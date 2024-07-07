@@ -15,7 +15,7 @@ const Main = () => {
   useEffect(() => {
     const storedTodos = getTodosFromStorage();
     dispatch(setTodos(storedTodos));
-  }, [dispatch]);
+  }, []);
 
   useEffect(() => {
     saveTodosToStorage(todos);
