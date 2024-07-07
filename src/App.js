@@ -1,7 +1,7 @@
 import Main from "./pages/Main";
-import "./App.css";
 import { Navigate, Route, Routes } from "react-router-dom";
 import TodoDetails from "./pages/TodoDetails";
+import "./App.css";
 
 const App = () => {
   return (
