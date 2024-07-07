@@ -1,0 +1,19 @@
+.App {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  max-height: 100vh;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+P {
+  font-size: 22px;
+}
