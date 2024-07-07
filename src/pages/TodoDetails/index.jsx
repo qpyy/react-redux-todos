@@ -26,7 +26,7 @@ const TodoDetails = () => {
     if (currentTask) {
       updateTaskStatus();
     }
-  }, [currentTask, updateTaskStatus]);
+  }, [currentTask]);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
