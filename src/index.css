@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: -apple-system, "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: -webkit-linear-gradient(90deg, #727df5, #7c22f1);
+  background: linear-gradient(90deg, #757ff1, #7d23f3);
+}
+
+code {
+  font-family: source-code-pro, "Roboto", sans-serif;
+}
