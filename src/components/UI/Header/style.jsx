@@ -17,7 +17,7 @@ const StyledHeader = styled.header`
 const StyledSearchResults = styled.ul`
   list-style-type: none;
   padding: 0;
-  margin: 5px 0;
+  margin: 5px 68px 5px 0;
   width: 60%;
   position: absolute;
   background-color: #fff;
@@ -48,7 +48,7 @@ const StyledHomeIcon = styled(homeIcon)`
   height: 48px;
   margin-left: 20px;
   fill: #fff;
-  transition: fill 0.4s;
+  transition: fill 0.2s;
 
   &:hover {
     fill: #42a1ff;

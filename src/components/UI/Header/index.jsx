@@ -2,13 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import CustomInput from "../CustomInput";
 import { getTodosFromStorage } from "../../../utils";
-import {
-  StyledHeader,
-  StyledSearchResults,
-  StyledSearchItem,
-  StyledHomeImage,
-  StyledHomeIcon,
-} from "./style";
+import { StyledHeader, StyledSearchResults, StyledHomeIcon, StyledSearchItem } from "./style";
 
 const Header = () => {
   const [searchTerm, setSearchTerm] = useState("");

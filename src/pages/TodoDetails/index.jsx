@@ -20,7 +20,7 @@ const TodoDetails = () => {
     if (foundTask) {
       dispatch(setCurrentTask(foundTask));
     }
-  }, [id, dispatch]);
+  }, [id]);
 
   useEffect(() => {
     if (currentTask) {
