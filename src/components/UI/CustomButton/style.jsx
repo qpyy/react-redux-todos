@@ -4,7 +4,7 @@ const StyledCustomButton = styled.button`
   border: 2px solid #373a3d;
   border-radius: 4px;
   background-color: transparent;
-  height: 30px;
+  height: 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
