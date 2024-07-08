@@ -3,7 +3,7 @@ import styled from "styled-components";
 const StyledCustomInput = styled.input`
   width: ${(props) => props.width};
   background-color: ${(props) => props.bgColor};
-  height: 26px;
+  height: 32px;
   border: 2px solid #373a3d;
   margin: 0 10px;
   border-radius: 4px;

@@ -47,7 +47,7 @@ const StyledHomeIcon = styled(homeIcon)`
   width: 48px;
   height: 48px;
   margin-left: 20px;
-  fill: #000;
+  fill: #fff;
   transition: fill 0.4s;
 
   &:hover {
@@ -55,7 +55,7 @@ const StyledHomeIcon = styled(homeIcon)`
   }
 
   &:active {
-    fill: #fff;
+    fill: #000;
   }
 `;
 
