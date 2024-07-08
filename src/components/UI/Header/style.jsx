@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { ReactComponent as homeIcon } from "../../../assets/icons/homeIcon.svg";
 
 const StyledHeader = styled.header`
   position: fixed;
@@ -23,7 +24,7 @@ const StyledSearchResults = styled.ul`
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   z-index: 9;
-  top: 55px; /* расстояние между наверху и поисковыми результатами */
+  top: 55px;
 `;
 
 const StyledSearchItem = styled.li`
@@ -42,4 +43,20 @@ const StyledSearchItem = styled.li`
   }
 `;
 
-export { StyledHeader, StyledSearchResults, StyledSearchItem };
+const StyledHomeIcon = styled(homeIcon)`
+  width: 48px;
+  height: 48px;
+  margin-left: 20px;
+  fill: #000;
+  transition: fill 0.4s;
+
+  &:hover {
+    fill: #42a1ff;
+  }
+
+  &:active {
+    fill: #fff;
+  }
+`;
+
+export { StyledHeader, StyledSearchResults, StyledSearchItem, StyledHomeIcon };

@@ -1,8 +1,14 @@
 import { useState } from "react";
-import { StyledHeader, StyledSearchResults, StyledSearchItem } from "./style";
 import { Link } from "react-router-dom";
-import { getTodosFromStorage } from "../../../utils";
 import CustomInput from "../CustomInput";
+import { getTodosFromStorage } from "../../../utils";
+import {
+  StyledHeader,
+  StyledSearchResults,
+  StyledSearchItem,
+  StyledHomeImage,
+  StyledHomeIcon,
+} from "./style";
 
 const Header = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -48,6 +54,10 @@ const Header = () => {
           ))}
         </StyledSearchResults>
       )}
+
+      <Link to="/main">
+        <StyledHomeIcon alt="Home" />
+      </Link>
     </StyledHeader>
   );
 };
