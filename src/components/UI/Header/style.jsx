@@ -18,6 +18,7 @@ const StyledSearchResults = styled.ul`
   list-style-type: none;
   padding: 0;
   margin: 5px 0;
+  margin-right: 68px;
   width: 60%;
   position: absolute;
   background-color: #fff;
